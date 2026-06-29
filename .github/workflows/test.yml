@@ -6,7 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: second step
-        run: ls
-      - name: first step
-        run: echo " hello world"
+        run: |
+          echo " current directory "
+          pwd
+          echo "files:"
+          ls -la
       
