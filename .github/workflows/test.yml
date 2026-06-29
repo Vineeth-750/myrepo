@@ -5,7 +5,8 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
-      - name: first step
+      - name: second step
         run: pwd
+      - name: first step
         run: echo " hello world"
       
