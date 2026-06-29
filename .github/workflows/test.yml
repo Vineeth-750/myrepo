@@ -12,5 +12,5 @@ jobs:
           pwd
           echo "files:"
           ls -la
-          python -- version
+          
       
