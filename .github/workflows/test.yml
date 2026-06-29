@@ -12,6 +12,7 @@ jobs:
           pwd
           echo "files:"
           ls -la
+      - run: python --version
       - uses: actions/setup-python@v5
         with: 
           python-version: "3.12"
