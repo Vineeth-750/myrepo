@@ -12,5 +12,5 @@ jobs:
           pwd
           echo "files:"
           ls -la
-      - uses: actions/setup-python@v5
+          python -- version
       
